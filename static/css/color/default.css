@@ -1,9 +1,9 @@
 ::selection {
-  background-color: #1c337d;
+  background-color: #e74c3c;
   color: #fff;
 }
 ::-moz-selection {
-  background-color: #1c337d;
+  background-color: #e74c3c;
   color: #fff;
 }
 
@@ -18,22 +18,29 @@
 .header-nav .navbar-nav .nav-link.active,	
 .m-btn-theme:hover,
 .theme-color{
-  color: #1c337d;
+  color: #e74c3c;
 }
 
 .frequent-left .nav-link.active,
 .theme-border,
-.team-box:hover .team-img:after,
-.m-btn-theme{
-	border-color: #1c337d;
+.team-box:hover .team-img:after,{
+	border-color: #e74c3c;
 }
 
 .frequent-left .nav-link.active,
 .team-title h4:after,
 .header-nav .navbar-nav .nav-link.active:after,
-.m-btn-theme,
 .theme-bg,
 .theme-after:after,
 .theme-hover:hover {
-  background: #1c337d;
+  background: #e74c3c;
+}
+
+.m-btn-theme,
+{
+  background: #28c468;
+}
+
+.m-btn-theme{
+	border-color: #24b15e;
 }
