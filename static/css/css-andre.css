@@ -1,0 +1,53 @@
+/*buttons*/
+.bt{
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: inline-block;
+    margin: 0.54rem;
+    padding: 0.50rem 0.99rem;
+}
+.bt-red{
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
+}
+/*Header*/
+.fixed-header .container{
+    position: relative;
+    top: 0rem;
+}
+.logo-header, .icone-logo{
+    display: none;
+}
+@media(min-width: 768px){
+    .fixed-header{
+        min-height: 14vh;
+    }
+    .logo-header{
+        display: block;
+        width: 7vw;
+    }
+    .icone-logo{
+        width: 3vw;
+    }
+    .fixed-header .logo-header,
+    .icone-logo {
+        display: none;
+    }
+    .fixed-header .icone-logo{
+        display: block;
+    }
+    .fixed-header .container {
+        top: 0.8rem;
+    }
+}
+/*section banner*/
+.img-banner{
+    position: relative;
+    top: 2rem;
+}
+/*section slide*/
+.title-red{
+    color: #e74c3c;
+}
